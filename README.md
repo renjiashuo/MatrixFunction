@@ -6,8 +6,8 @@ C++向量类模板：
 头文件：
 usingdeclare.h，
 constants.h，
-vector.h
+vector.h。
 实现文件：
-vector-impl.h
+vector-impl.h。
 测试代码：
-vector_test.cpp
+vector_test.cpp。
