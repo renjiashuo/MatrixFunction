@@ -4,17 +4,10 @@
 C++向量类模板：
 
 头文件：
-
 usingdeclare.h
-
 constants.h
-
 vector.h
-
 实现文件：
-
 vector-impl.h
-
 测试代码：
-
 vector_test.cpp
