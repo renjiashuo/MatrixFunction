@@ -24,7 +24,7 @@
 
 
 /*****************************************************************************
-*                               vector-impl.h
+*                               vectormath-impl.h
 *
 * Implementation for Vector math functions.
 *
