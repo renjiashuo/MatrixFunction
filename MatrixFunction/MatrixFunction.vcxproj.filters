@@ -45,9 +45,27 @@
     <ClInclude Include="matrixmath-impl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="cholesky.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cholesky-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ccholesky.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ccholesky-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lud.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lud-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="matrixmath_test.cpp">
+    <ClCompile Include="lud_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

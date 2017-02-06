@@ -64,7 +64,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ccholesky-impl.h" />
+    <ClInclude Include="ccholesky.h" />
+    <ClInclude Include="cholesky-impl.h" />
+    <ClInclude Include="cholesky.h" />
     <ClInclude Include="constants.h" />
+    <ClInclude Include="lud-impl.h" />
+    <ClInclude Include="lud.h" />
     <ClInclude Include="matrix-impl.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="matrixmath-impl.h" />
@@ -76,7 +82,7 @@
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="matrixmath_test.cpp" />
+    <ClCompile Include="lud_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
