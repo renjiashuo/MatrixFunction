@@ -67,6 +67,8 @@
     <ClInclude Include="constants.h" />
     <ClInclude Include="matrix-impl.h" />
     <ClInclude Include="matrix.h" />
+    <ClInclude Include="matrixmath-impl.h" />
+    <ClInclude Include="matrixmath.h" />
     <ClInclude Include="usingdeclare.h" />
     <ClInclude Include="vector-impl.h" />
     <ClInclude Include="vector.h" />
@@ -74,7 +76,7 @@
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vectormath_test.cpp" />
+    <ClCompile Include="matrixmath_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
