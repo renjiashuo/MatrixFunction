@@ -1,5 +1,5 @@
 /*****************************************************************************
-*                               nle_test.cpp
+*                               nleroot_test.cpp
 *
 * Rooting of nonlinear equation testing.
 *
