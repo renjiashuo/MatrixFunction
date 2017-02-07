@@ -66,15 +66,35 @@
   <ItemGroup>
     <ClInclude Include="ccholesky-impl.h" />
     <ClInclude Include="ccholesky.h" />
+    <ClInclude Include="cevd-impl.h" />
+    <ClInclude Include="cevd.h" />
     <ClInclude Include="cholesky-impl.h" />
     <ClInclude Include="cholesky.h" />
     <ClInclude Include="constants.h" />
+    <ClInclude Include="cqrd-impl.h" />
+    <ClInclude Include="cqrd.h" />
+    <ClInclude Include="csvd-impl.h" />
+    <ClInclude Include="csvd.h" />
+    <ClInclude Include="evd-impl.h" />
+    <ClInclude Include="evd.h" />
+    <ClInclude Include="inverse-impl.h" />
+    <ClInclude Include="inverse.h" />
+    <ClInclude Include="linequs1-impl.h" />
+    <ClInclude Include="linequs1.h" />
+    <ClInclude Include="linequs2-impl.h" />
+    <ClInclude Include="linequs2.h" />
     <ClInclude Include="lud-impl.h" />
     <ClInclude Include="lud.h" />
     <ClInclude Include="matrix-impl.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="matrixmath-impl.h" />
     <ClInclude Include="matrixmath.h" />
+    <ClInclude Include="pseudoinverse-impl.h" />
+    <ClInclude Include="pseudoinverse.h" />
+    <ClInclude Include="qrd-impl.h" />
+    <ClInclude Include="qrd.h" />
+    <ClInclude Include="svd-impl.h" />
+    <ClInclude Include="svd.h" />
     <ClInclude Include="usingdeclare.h" />
     <ClInclude Include="vector-impl.h" />
     <ClInclude Include="vector.h" />
@@ -82,7 +102,7 @@
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lud_test.cpp" />
+    <ClCompile Include="linequs2_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

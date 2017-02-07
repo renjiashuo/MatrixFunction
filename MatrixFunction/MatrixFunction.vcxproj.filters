@@ -63,9 +63,69 @@
     <ClInclude Include="lud-impl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="qrd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qrd-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cqrd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cqrd-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="svd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="svd-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="csvd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="csvd-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="evd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="evd-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cevd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cevd-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inverse-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pseudoinverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pseudoinverse-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linequs1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linequs1-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linequs2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linequs2-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lud_test.cpp">
+    <ClCompile Include="linequs2_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
