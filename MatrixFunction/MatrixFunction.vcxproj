@@ -83,12 +83,20 @@
     <ClInclude Include="linequs1.h" />
     <ClInclude Include="linequs2-impl.h" />
     <ClInclude Include="linequs2.h" />
+    <ClInclude Include="linequs3-impl.h" />
+    <ClInclude Include="linequs3.h" />
     <ClInclude Include="lud-impl.h" />
     <ClInclude Include="lud.h" />
     <ClInclude Include="matrix-impl.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="matrixmath-impl.h" />
     <ClInclude Include="matrixmath.h" />
+    <ClInclude Include="nleroot-impl.h" />
+    <ClInclude Include="nleroot.h" />
+    <ClInclude Include="nleroots-impl.h" />
+    <ClInclude Include="nleroots.h" />
+    <ClInclude Include="nlfunc.h" />
+    <ClInclude Include="nlfuncs.h" />
     <ClInclude Include="pseudoinverse-impl.h" />
     <ClInclude Include="pseudoinverse.h" />
     <ClInclude Include="qrd-impl.h" />
@@ -102,7 +110,7 @@
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="linequs2_test.cpp" />
+    <ClCompile Include="nleroots_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

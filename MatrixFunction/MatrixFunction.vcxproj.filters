@@ -123,9 +123,33 @@
     <ClInclude Include="linequs2-impl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="linequs3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linequs3-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nlfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nleroot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nleroot-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nlfuncs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nleroots.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nleroots-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="linequs2_test.cpp">
+    <ClCompile Include="nleroots_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
