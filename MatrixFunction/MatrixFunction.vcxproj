@@ -70,6 +70,8 @@
     <ClInclude Include="cevd.h" />
     <ClInclude Include="cholesky-impl.h" />
     <ClInclude Include="cholesky.h" />
+    <ClInclude Include="conjgrad-impl.h" />
+    <ClInclude Include="conjgrad.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="cqrd-impl.h" />
     <ClInclude Include="cqrd.h" />
@@ -77,6 +79,11 @@
     <ClInclude Include="csvd.h" />
     <ClInclude Include="evd-impl.h" />
     <ClInclude Include="evd.h" />
+    <ClInclude Include="fitcurves.h" />
+    <ClInclude Include="integral-impl.h" />
+    <ClInclude Include="integral.h" />
+    <ClInclude Include="integrand.h" />
+    <ClInclude Include="interpolation.h" />
     <ClInclude Include="inverse-impl.h" />
     <ClInclude Include="inverse.h" />
     <ClInclude Include="linequs1-impl.h" />
@@ -85,32 +92,45 @@
     <ClInclude Include="linequs2.h" />
     <ClInclude Include="linequs3-impl.h" />
     <ClInclude Include="linequs3.h" />
+    <ClInclude Include="linesearch-impl.h" />
+    <ClInclude Include="linesearch.h" />
+    <ClInclude Include="lsfitting-impl.h" />
+    <ClInclude Include="lsfitting.h" />
     <ClInclude Include="lud-impl.h" />
     <ClInclude Include="lud.h" />
     <ClInclude Include="matrix-impl.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="matrixmath-impl.h" />
     <ClInclude Include="matrixmath.h" />
+    <ClInclude Include="newtoninterp-impl.h" />
+    <ClInclude Include="newtoninterp.h" />
     <ClInclude Include="nleroot-impl.h" />
     <ClInclude Include="nleroot.h" />
     <ClInclude Include="nleroots-impl.h" />
     <ClInclude Include="nleroots.h" />
     <ClInclude Include="nlfunc.h" />
     <ClInclude Include="nlfuncs.h" />
+    <ClInclude Include="objfunc.h" />
     <ClInclude Include="pseudoinverse-impl.h" />
     <ClInclude Include="pseudoinverse.h" />
     <ClInclude Include="qrd-impl.h" />
     <ClInclude Include="qrd.h" />
+    <ClInclude Include="spline3interp-impl.h" />
+    <ClInclude Include="spline3interp.h" />
+    <ClInclude Include="steepdesc-impl.h" />
+    <ClInclude Include="steepdesc.h" />
     <ClInclude Include="svd-impl.h" />
     <ClInclude Include="svd.h" />
     <ClInclude Include="usingdeclare.h" />
+    <ClInclude Include="utilities-impl.h" />
+    <ClInclude Include="utilities.h" />
     <ClInclude Include="vector-impl.h" />
     <ClInclude Include="vector.h" />
     <ClInclude Include="vectormath-impl.h" />
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="nleroots_test.cpp" />
+    <ClCompile Include="utilities_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

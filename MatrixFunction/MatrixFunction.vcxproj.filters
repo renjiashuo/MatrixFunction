@@ -147,9 +147,69 @@
     <ClInclude Include="nleroots-impl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="integrand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="integral.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="integral-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interpolation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="newtoninterp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="newtoninterp-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spline3interp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spline3interp-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fitcurves.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lsfitting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lsfitting-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="objfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linesearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steepdesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linesearch-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="steepdesc-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="conjgrad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="conjgrad-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="nleroots_test.cpp">
+    <ClCompile Include="utilities_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
