@@ -2,10 +2,11 @@
 *                            pseudoinverse_test.cpp
 *
 * Matrix pseudoinverse testing.
-*
+* 实数矩阵与复数矩阵伪逆算法的C++实现
 * Zhang Ming, 2010-08 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -21,7 +22,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int pseudoinverse_test()
 {
 	Matrix<Type> A(8, 6), invA;
 	A[0][0] = 64; A[0][1] = 2;  A[0][2] = 3;  A[0][3] = 61; A[0][4] = 60; A[0][5] = 6;
