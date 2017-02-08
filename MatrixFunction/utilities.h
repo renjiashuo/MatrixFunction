@@ -72,7 +72,7 @@ namespace splab
                           const string &mode="zpd" );
 
 
-    #include <utilities-impl.h>
+    #include "utilities-impl.h"
 
 }
 // namespace splab
