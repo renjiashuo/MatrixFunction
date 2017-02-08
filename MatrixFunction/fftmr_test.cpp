@@ -2,10 +2,11 @@
 *                               fftmr_test.cpp
 *
 * Mixed Radix Algorithm FFT testing.
-*
+* 2的整次幂长度FFT算法的C++实现
 * Zhang Ming, 2010-04, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #include <iostream>
 #include <iomanip>
@@ -20,7 +21,7 @@ typedef double  Type;
 const   int     LENGTH = 32;
 
 
-int main()
+int fftmr_test()
 {
 	int     i, j, index, rows = LENGTH / 4;
 
