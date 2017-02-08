@@ -47,6 +47,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/force %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -139,6 +140,37 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bfgs_test.cpp" />
+    <ClCompile Include="ccholesky_test.cpp" />
+    <ClCompile Include="cevd_test.cpp" />
+    <ClCompile Include="cholesky_test.cpp" />
+    <ClCompile Include="conjgrad_test.cpp" />
+    <ClCompile Include="cqrd_test.cpp" />
+    <ClCompile Include="csvd_test.cpp" />
+    <ClCompile Include="evd_test.cpp" />
+    <ClCompile Include="fftmr_test.cpp" />
+    <ClCompile Include="fftpf_test.cpp" />
+    <ClCompile Include="fft_test.cpp" />
+    <ClCompile Include="integral_test.cpp" />
+    <ClCompile Include="inverse_test.cpp" />
+    <ClCompile Include="linequs1_test.cpp" />
+    <ClCompile Include="linequs2_test.cpp" />
+    <ClCompile Include="linequs3_test.cpp" />
+    <ClCompile Include="lsfit_test.cpp" />
+    <ClCompile Include="lud_test.cpp" />
+    <ClCompile Include="main_test.cpp" />
+    <ClCompile Include="matrixmath_test.cpp" />
+    <ClCompile Include="matrix_test.cpp" />
+    <ClCompile Include="newtoninterp_test.cpp" />
+    <ClCompile Include="nleroots_test.cpp" />
+    <ClCompile Include="nleroot_test.cpp" />
+    <ClCompile Include="pseudoinverse_test.cpp" />
+    <ClCompile Include="qrd_test.cpp" />
+    <ClCompile Include="spline3interp_test.cpp" />
+    <ClCompile Include="steepdesc_test.cpp" />
+    <ClCompile Include="svd_test.cpp" />
+    <ClCompile Include="utilities_test.cpp" />
+    <ClCompile Include="vectormath_test.cpp" />
+    <ClCompile Include="vector_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
