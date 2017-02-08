@@ -2,10 +2,11 @@
 *                              inverse_test.cpp
 *
 * Matrix inverse testing.
-*
+* 各种实数矩阵与复数矩阵求逆算法的C++实现
 * Zhang Ming, 2010-08 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,11 +19,13 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     N = 3;
 
-int main()
+
+int inverse_test()
 {
+	typedef double  Type;
+	const   int     N = 3;
+
 	Matrix<Type> A, invA, B(N, N);
 	A.resize(3, 3);
 	A[0][0] = 1;	A[0][1] = 2;	A[0][2] = 1;
