@@ -2,10 +2,11 @@
 *                               lud_test.cpp
 *
 * LUD class testing.
-*
+* 实数矩阵与复数矩阵LU分解算法的C++实现
 * Zhang Ming, 2010-01 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,13 +19,15 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     M = 3;
-const   int     N = 4;
 
 
-int main()
+
+int lud_test()
 {
+	typedef double  Type;
+	const   int     M = 3;
+	const   int     N = 4;
+
 	Matrix<Type> A(3, 3), B(3, 3), L, U;
 	Vector<Type> b(3);
 
