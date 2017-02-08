@@ -2,10 +2,11 @@
 *                               fft_test.cpp
 *
 * FFT test.
-*
+* 类似Matlab中FFT函数调用形式的C++实现
 * Zhang Ming, 2010-09, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #include <iostream>
 #include <cstdlib>
@@ -17,14 +18,16 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     MINLEN = 1;
-const   int     MAXLEN = 1000;
-const   int     STEP = 10;
 
 
-int main()
+
+int fft_test()
 {
+	typedef double  Type;
+	const   int     MINLEN = 1;
+	const   int     MAXLEN = 1000;
+	const   int     STEP = 10;
+
 	Vector< complex<Type> >  sn, Rk, Sk, xn;
 	Vector<Type> rn, tn;
 
