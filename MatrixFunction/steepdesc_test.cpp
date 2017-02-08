@@ -2,10 +2,11 @@
 *                               steepdesc_test.cpp
 *
 * Steepest descent method testing.
-*
+* 最速下降优化算法的C++实现
 * Zhang Ming, 2010-03, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -19,11 +20,13 @@ using namespace std;
 using namespace splab;
 
 
-typedef float  Type;
 
 
-int main()
+
+int steepdesc_test()
 {
+	typedef float  Type;
+
 	Type a = 1.0,
 		b = -1.0,
 		c = -1.0;
