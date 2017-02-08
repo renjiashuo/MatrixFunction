@@ -2,10 +2,11 @@
 *                             matrixmath_test.cpp
 *
 * Math functions of matrix testing.
-*
+* 常用数学函数矩阵版本的C++实现
 * Zhang Ming, 2010-08, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -21,7 +22,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int matrixmath_test()
 {
 	int N = 9;
 	Type  a = 0, b = 2 * PI;
