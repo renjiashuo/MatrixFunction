@@ -1,6 +1,8 @@
 # MatrixFunction
 【非原创】【授权协议: MIT】C++矩阵计算相关函数源码。转载自http://my.oschina.net/zmjerry/blog
 
+测试环境：visual studio 2013
+
 一、C++向量类模板（支持实数向量与复数向量的各种运算）：
 
 头文件：
