@@ -2,10 +2,11 @@
 *                               cholesky_test.cpp
 *
 * Cholesky class testing.
-*
+* 实数矩阵Cholesky分解算法的C++实现
 * Zhang Ming, 2010-01 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,12 +19,14 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     N = 5;
 
 
-int main()
+
+int cholesky_test()
 {
+	typedef double  Type;
+	const   int     N = 5;
+
 	Matrix<Type> A(N, N), L(N, N);
 	Vector<Type> b(N);
 
