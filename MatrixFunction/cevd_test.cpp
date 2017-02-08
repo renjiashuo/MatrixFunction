@@ -2,10 +2,11 @@
 *                               cevd_test.cpp
 *
 * CEVD class testing.
-*
+* 复数矩阵特征值分解算法的C++实现
 * Zhang Ming, 2010-12, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,12 +19,14 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     N = 4;
 
 
-int main()
+
+int cevd_test()
 {
+	typedef double  Type;
+	const   int     N = 4;
+
 	Matrix<Type> B(N, N);
 	B[0][0] = 3.0;	B[0][1] = -2.0;	B[0][2] = -0.9;     B[0][3] = 0.0;
 	B[1][0] = -2.0;	B[1][1] = 4.0;	B[1][2] = 1.0;      B[1][3] = 0.0;
