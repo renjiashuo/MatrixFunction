@@ -2,10 +2,11 @@
 *                               newtoninterp_test.cpp
 *
 * Newton interpolation testing.
-*
+* Newton插值算法的C++实现
 * Zhang Ming, 2010-04, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -21,7 +22,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int newtoninterp_test()
 {
 	Vector<Type> x(5),
 		y(5);
