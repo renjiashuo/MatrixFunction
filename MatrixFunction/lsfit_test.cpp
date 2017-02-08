@@ -2,10 +2,11 @@
 *                               lsfit_test.cpp
 *
 * Least square fitting testing.
-*
+* 最小二乘曲线拟合算法的C++实现
 * Zhang Ming, 2010-04, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -20,7 +21,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int lsfit_test()
 {
 	Type    A = 4.0,
 		alpha = 1.0,
