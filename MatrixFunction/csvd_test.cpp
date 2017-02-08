@@ -2,10 +2,11 @@
 *                               csvd_test.cpp
 *
 * CSVD class testing.
-*
+* 复数矩阵SVD分解算法的C++实现
 * Zhang Ming, 2010-12, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,13 +19,15 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     M = 4;
-const   int     N = 5;
 
 
-int main()
+
+int csvd_test()
 {
+	typedef double  Type;
+	const   int     M = 4;
+	const   int     N = 5;
+
 	Matrix< complex<Type> > A(M, N), B(M, N);
 	for (int i = 0; i<M; i++)
 	for (int j = 0; j<N; j++)
