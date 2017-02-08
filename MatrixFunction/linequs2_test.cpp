@@ -2,10 +2,11 @@
 *                              linequs2_test.cpp
 *
 * Undetermined Linear Equations testing.
-*
+* 最小二乘解与极小范数解算法的C++实现（支持复系数方程组）
 * Zhang Ming, 2010-07 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,13 +19,15 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     M = 3;
-const   int     N = 3;
 
 
-int main()
+
+int linequs2_test()
 {
+	typedef double  Type;
+	const   int     M = 3;
+	const   int     N = 3;
+
 	Matrix<Type> A(M, N), B(M, N);
 	Vector<Type> b(N);
 
