@@ -2,10 +2,11 @@
 *                               spline3interp_test.cpp
 *
 * Spline3 interpolation testing.
-*
+* 三次样条插值算法的C++实现
 * Zhang Ming, 2010-04, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -21,7 +22,7 @@ using namespace splab;
 typedef double   Type;
 
 
-int main()
+int spline3interp_test()
 {
 	// f(x) = 1 / (1+25*x^2)   -1 <= x <= 1
 	Type xi[11] = { -1.0, -0.8, -0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0 };
