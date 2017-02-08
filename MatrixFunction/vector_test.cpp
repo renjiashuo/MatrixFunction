@@ -2,10 +2,11 @@
 *                               vector_test.cpp
 *
 * Vector class testing.
-*
+* C++向量类模板（支持实数向量与复数向量的各种运算）
 * Zhang Ming, 2010-01 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -19,7 +20,7 @@ using namespace std;
 using namespace splab;
 
 
-const int M = 3;
+
 
 
 void display(const int *p, int length)
@@ -30,8 +31,10 @@ void display(const int *p, int length)
 }
 
 
-int main()
+int vector_test()
 {
+	const int M = 3;
+
 	int k;
 	int arrays[3] = { 1, 2, 3 };
 
