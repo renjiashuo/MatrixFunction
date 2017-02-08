@@ -2,10 +2,11 @@
 *                              linequs1_test.cpp
 *
 * Deterministic Linear Equations testing.
-*
+* 各种线性方程组求解算法C++实现（支持复系数方程组）
 * Zhang Ming, 2010-07 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,13 +19,15 @@ using namespace std;
 using namespace splab;
 
 
-typedef float   Type;
-const   int     M = 3;
-const   int     N = 3;
 
 
-int main()
+
+int linequs1_test()
 {
+	typedef float   Type;
+	const   int     M = 3;
+	const   int     N = 3;
+
 	Matrix<Type> A(M, N), B;
 	Vector<Type> b(N);
 
