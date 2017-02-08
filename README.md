@@ -280,3 +280,12 @@ fftpf.h。
 fftpf-impl.h。
 测试代码：
 fftpf_test.cpp。
+
+三十一、BFGS优化算法的C++实现
+
+头文件：
+bfgs.h。
+实现文件：
+bfgs-impl.h。
+测试代码：
+bfgs_test.cpp。
