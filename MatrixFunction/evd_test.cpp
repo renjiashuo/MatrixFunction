@@ -2,10 +2,11 @@
 *                               evd_test.cpp
 *
 * EVD class testing.
-*
+* 实数矩阵特征值分解算法C++实现
 * Zhang Ming, 2010-01 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,12 +19,14 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     N = 2;
 
 
-int main()
+
+int evd_test()
 {
+	typedef double  Type;
+	const   int     N = 2;
+
 	Matrix<Type> B(N, N);
 	B[0][0] = 3.0;	B[0][1] = -2.0;
 	B[1][0] = -2.0;	B[1][1] = 4.0;
