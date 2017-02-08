@@ -2,10 +2,11 @@
  *                               bfgs_test.cpp
  *
  * BFGS method testing.
- *
+ * BFGS优化算法的C++实现
  * Zhang Ming, 2010-03, Xi'an Jiaotong University.
  *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -22,7 +23,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int bfgs_test()
 {
     Type a = 1.0,
          b = -1.0,
