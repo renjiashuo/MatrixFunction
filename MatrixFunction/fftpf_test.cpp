@@ -2,10 +2,11 @@
 *                               fftpf_test.cpp
 *
 * Prime factor FFT test.
-*
+* 任意长度FFT算法的C++实现
 * Zhang Ming, 2010-09, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #include <iostream>
 #include <cstdlib>
@@ -17,14 +18,16 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     MINLEN = 101;
-const   int     MAXLEN = 1000;
-const   int     STEP = 10;
 
 
-int main()
+
+int fftpf_test()
 {
+	typedef double  Type;
+	const   int     MINLEN = 101;
+	const   int     MAXLEN = 1000;
+	const   int     STEP = 10;
+
 	Vector< complex<Type> >  sn, Rk, Sk, xn;
 	Vector<Type> rn, tn;
 	FFTPF<Type> Fourier;
