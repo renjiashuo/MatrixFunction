@@ -2,10 +2,11 @@
 *                               nleroot_test.cpp
 *
 * Rooting of nonlinear equation testing.
-*
+* 非线性方程求根算法的C++实现
 * Zhang Ming, 2010-04, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #include <iostream>
 #include <iomanip>
@@ -19,7 +20,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int nleroot_test()
 {
 	Type x01, x02, x03;
 	NLFunc<Type> f(1.0, -3.0, 1.0);
