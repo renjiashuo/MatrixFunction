@@ -2,10 +2,11 @@
  *                              linequs3_test.cpp
  *
  * Rank Defect Linear Equations testing.
- *
+ * 病态方程组求解方法的C++实现（支持复系数方程组）
  * Zhang Ming, 2010-07 (revised 2010-12), Xi'an Jiaotong University.
  *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -21,7 +22,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int linequs3_test()
 {
 	Matrix<Type> A(8,6);
     A[0][0]=64; A[0][1]=2;  A[0][2]=3;  A[0][3]=61; A[0][4]=60; A[0][5]=6;
