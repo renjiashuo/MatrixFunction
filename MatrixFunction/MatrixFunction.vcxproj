@@ -64,6 +64,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bfgs-impl.h" />
+    <ClInclude Include="bfgs.h" />
     <ClInclude Include="ccholesky-impl.h" />
     <ClInclude Include="ccholesky.h" />
     <ClInclude Include="cevd-impl.h" />
@@ -136,7 +138,7 @@
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="conjgrad_test.cpp" />
+    <ClCompile Include="bfgs_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

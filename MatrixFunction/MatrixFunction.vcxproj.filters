@@ -225,9 +225,15 @@
     <ClInclude Include="fftpf-impl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="bfgs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bfgs-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="conjgrad_test.cpp">
+    <ClCompile Include="bfgs_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
