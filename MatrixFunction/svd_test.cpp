@@ -2,10 +2,11 @@
 *                               svd_test.cpp
 *
 * SVD class testing.
-*
+* 实数矩阵SVD分解算法的C++实现
 * Zhang Ming, 2010-01 (revised 2010-08), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -21,7 +22,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int svd_test()
 {
 	//    Matrix<Type> A(4,4);
 	//	A(1,1) = 16;    A(1,2) = 2;     A(1,3) = 3;     A(1,4) = 13;
