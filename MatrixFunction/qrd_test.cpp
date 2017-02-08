@@ -2,10 +2,11 @@
 *                               qrd_test.cpp
 *
 * QRD class testing.
-*
+* 实数矩阵QR分解算法的C++实现
 * Zhang Ming, 2010-01 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,13 +19,15 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     M = 4;
-const   int     N = 3;
 
 
-int main()
+
+int qrd_test()
 {
+	typedef double  Type;
+	const   int     M = 4;
+	const   int     N = 3;
+
 	Matrix<Type> A(M, N), Q, R;
 	A[0][0] = 1;	A[0][1] = 0;	A[0][2] = 0;
 	A[1][0] = 1;	A[1][1] = 2;	A[1][2] = 4;
