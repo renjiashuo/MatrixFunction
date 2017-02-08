@@ -2,10 +2,11 @@
 *                             vectormath_test.cpp
 *
 * Math functions of vector testing.
-*
+* 常用数学函数向量版本的C++实现
 * Zhang Ming, 2010-08, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,7 +19,7 @@ using namespace std;
 using namespace splab;
 
 
-int main()
+int vectormath_test()
 {
 
 	int     N = 5;
