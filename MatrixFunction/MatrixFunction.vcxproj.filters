@@ -207,9 +207,27 @@
     <ClInclude Include="utilities-impl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="fft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fft-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fftmr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fftmr-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fftpf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fftpf-impl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="utilities_test.cpp">
+    <ClCompile Include="conjgrad_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

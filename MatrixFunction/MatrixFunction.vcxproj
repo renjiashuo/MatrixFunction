@@ -79,6 +79,12 @@
     <ClInclude Include="csvd.h" />
     <ClInclude Include="evd-impl.h" />
     <ClInclude Include="evd.h" />
+    <ClInclude Include="fft-impl.h" />
+    <ClInclude Include="fft.h" />
+    <ClInclude Include="fftmr-impl.h" />
+    <ClInclude Include="fftmr.h" />
+    <ClInclude Include="fftpf-impl.h" />
+    <ClInclude Include="fftpf.h" />
     <ClInclude Include="fitcurves.h" />
     <ClInclude Include="integral-impl.h" />
     <ClInclude Include="integral.h" />
@@ -130,7 +136,7 @@
     <ClInclude Include="vectormath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="utilities_test.cpp" />
+    <ClCompile Include="conjgrad_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
