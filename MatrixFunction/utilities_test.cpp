@@ -2,10 +2,11 @@
  *                               utilities_test.cpp
  *
  * Utilities testing.
- *
+ * 信号处理算法中常用辅助函数的C++实现
  * Zhang Ming, 2010-01, Xi'an Jiaotong University.
  *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -22,7 +23,7 @@ using namespace splab;
 const int N = 5;
 
 
-int main()
+int utilities_test()
 {
 
 	Vector<int> v1(N);
