@@ -2,10 +2,11 @@
 *                               integral_test.cpp
 *
 * Numerical integral testing.
-*
+* Romberg数值积分算法的C++实现
 * Zhang Ming, 2010-04, Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #include <iostream>
 #include "integral.h"
@@ -18,7 +19,7 @@ using namespace splab;
 typedef double  Type;
 
 
-int main()
+int integral_test()
 {
 	Type    p1 = 1,
 		p2 = 2,
