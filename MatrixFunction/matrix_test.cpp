@@ -2,10 +2,11 @@
 *                               matrix_test.cpp
 *
 * Matrix class testing.
-*
+* C++矩阵类模板（支持实数矩阵与复数矩阵的各种运算）
 * Zhang Ming, 2010-01 (revised 2010-12), Xi'an Jiaotong University.
 *****************************************************************************/
 
+#pragma once
 
 #define BOUNDS_CHECK
 
@@ -18,13 +19,15 @@ using namespace std;
 using namespace splab;
 
 
-typedef double  Type;
-const   int     M = 3;
-const   int     N = 3;
 
 
-int main()
+
+int matrix_test()
 {
+	typedef double  Type;
+	const   int     M = 3;
+	const   int     N = 3;
+
 	Type x;
 
 	Matrix<Type> m1;
